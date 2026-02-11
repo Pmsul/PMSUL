@@ -1,0 +1,368 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        header {
+            width: 100%;
+            height: auto;
+        }
+
+        nav {
+            width: 100%;
+            height: 107px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 98px;
+        }
+
+        .ape {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 88px;
+            list-style: none;
+        }
+
+     
+
+        .btnCont {
+            padding: 12px 20px;
+            background: #005DA9;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 400;
+        }
+
+        .blockBaner {
+            width: 100%;
+            height: 714px;
+            background: url(../media/fonBaner.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h2 {
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            color: #202020;
+            text-decoration-line: underline;
+        }
+
+        .block1 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 40px;
+            margin: 50px 0px;
+        }
+
+        .podBlock1 {
+            width: 100%;
+            height: auto;
+            padding: 0px 50px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .podBlock1 p {
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            color: #202020;
+        }
+
+        .block2 {
+            width: 100%;
+            height: 80px;
+            background: #005DA9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .blockForm {
+            width: 100%;
+            height: 625px;
+            background: url(../media/fonForm.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            padding: 0px 50px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 30px;
+        }
+
+        h3 {
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .nmEm input {
+            width: 295px;
+            height: 51px;
+            border-radius: 10px;
+            padding: 0px 20px;
+            background: #fff;
+            border-style: none;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+        }
+
+        .nmEm input::placeholder {
+            color: #808080;
+        }
+
+        textarea {
+            width: 610px;
+            height: 124px;
+            border-radius: 10px;
+            border-style: none;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            padding: 20px;
+            background: #fff;
+            color: #808080;
+        }
+
+        .btnForm {
+            padding: 12px 20px;
+            background: #005DA9;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            border-style: none;
+            cursor: pointer;
+        }
+
+        .block3 {
+            width: 100%;
+            height: auto;
+            padding: 0px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            margin: 50px 0px;
+        }
+
+        .info {
+            width: 600px;
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            gap: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+        }
+
+        .info h2 {
+            text-decoration: none;
+            font-size: 40px;
+        }
+
+        .btnB3 {
+            padding: 12px 20px;
+            background: #005DA9;
+            border-radius: 10px;
+            color: #fff;
+        }
+
+        footer {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        footer img {
+            margin: 0 auto;
+        }
+
+        .footer {
+            width: 100%;
+            height: 139px;
+            background: #005DA9;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 98px;
+        }
+
+        .btnFoot {
+            padding: 12px 20px;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            font-size: 18px;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+        }
+
+        .menuFoot {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            list-style: none;
+        }
+
+        .menuFoot a {
+            color: #fff;
+        }
+
+        .UserAg {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .Ag {
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            color: #fff;
+        }
+
+        .page-title {
+            text-align: center;
+            font-size: 30px;
+            font-weight: 600;
+            color: #202020;
+            margin: 40px 0;
+            text-decoration: underline;
+        }
+
+        .heroes-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            padding: 0 50px;
+            margin-bottom: 60px;
+        }
+
+        .hero-card {
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .hero-img {
+            width: 100%;
+            height: 240px;
+            background: #eee url('hero-placeholder.jpg') center/cover no-repeat;
+        }
+
+        .hero-info {
+            padding: 20px;
+        }
+
+        .hero-info h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #202020;
+        }
+
+        .hero-info p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .btn-read {
+            display: inline-block;
+            padding: 8px 16px;
+            background: #005DA9;
+            color: #fff;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .hero-detail {
+            padding: 0 50px;
+            margin-bottom: 60px;
+        }
+
+        .hero-detail-header {
+            display: flex;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .hero-detail-img {
+            width: 400px;
+            height: 500px;
+            background: #eee url('hero-detail-placeholder.jpg') center/cover no-repeat;
+            border-radius: 10px;
+        }
+
+        .hero-detail-content {
+            flex: 1;
+        }
+
+        .hero-detail-content h1 {
+            font-size: 36px;
+            font-weight: 600;
+            color: #202020;
+            margin-bottom: 20px;
+        }
+
+        .hero-detail-content .subtitle {
+            font-size: 20px;
+            color: #005DA9;
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
+
+        .hero-detail-text {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #202020;
+            margin-bottom: 30px;
+        }
+
+
+        .btn-back {
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: #005DA9;
+            color: #fff;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 500;
+            border: none;
+            cursor: pointer;
+        }
+
+        
